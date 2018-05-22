@@ -92,6 +92,13 @@
                 </div>
             </div>
             <div class="col-12">
+                
+                <div class="pestana">
+                    <img src="" alt="">
+                    <p>AMENIDADES</p>
+                </div>
+            </div>
+            <div class="col-12">
                 <a href="">
                     <img src="genova.jpg" alt="">
                 </a>
@@ -109,18 +116,45 @@
             <div class="col-12">
                 <div class="centro_880">
                     <div class="row">
-                        <div class="col-4 col-sm-2"></div>
+                        <div class="col-4 col-sm-2">
+                            
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-12">
-                <div class="contacto">
+                <div class="pestana">
+                    <img src="" alt="">
+                    <p>CONTACTO</p>
+                </div>
+                <div class="centro_880">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            CONTACTA A UN ASESOR INMOBILIARIO
+                            Fraccionamiento Porta Romani
+                            Av. Porta Romani 100 Col...
+                            Telefóno <a href="tel:+1 477 000 0000"> +1 (477) 000 0000</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <form action="enviarCorreo">
+                            <input type="text" placeholder="Nombre Completo" class="form-control">
+                            <input type="text" placeholder="E-mail" class="form-control">
+                            <input type="text" placeholder="Mensaje" class="form-control">
+                            <input type="submit" class='btn_submit_porta' value='ENVIAR'>
+                        </form>
+                    </div>
                     
                 </div>
                 <div id="map">
                     
                 </div>
             </div>
+            <div class="col-12">
+                <img src="{{ asset('img/portada_1.jpg') }}" alt="">
+            </div>
         </div>
+        <script scr='{{ asset('js/general.js') }}' ></script>
     </body>
 </html>
