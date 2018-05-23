@@ -21,9 +21,9 @@
                 </div>
 
             </div>
-            <div class="col-12 navegador_porta p-t-20 m-b-20">
+            <div class="col-12 navegador_porta p-t-20">
                 <div class="centro_880">
-                    <div class="row justify-content-center align-items-center ">
+                    <div class="row justify-content-center align-items-center alineado_centro">
                         <div class="col-4 col-sm-2 p-t-10 p-b-10">
                             <a href="#quienes">QUIENES SOMOS?</a>
                         </div>
@@ -44,7 +44,8 @@
                 </div>
             </div>
             <div class="col-12">
-                <div class="pestana">
+                <div class="pestana alineado_centro">
+                    .
                     <img src="" alt="">
                     <p>QUIENES SOMOS?</p>
                 </div>
@@ -77,7 +78,7 @@
                                 
                             </div>
                         </div>
-                        <div class="col-12 ">
+                        <div class="col-12 alineado_centro">
                             <h2>-Porta Romani Residencial-</h2>
                         </div>
                         <div class="col-12">
@@ -123,7 +124,7 @@
             </div>
             <div class="col-12">
                 
-                <div class="pestana">
+                <div class="pestana alineado_centro">
                     <p>AMENIDADES</p>
                 </div>
             </div>
@@ -132,15 +133,14 @@
                     <div class="row justify-content-center align-items-center">
                         <div class="col-10 col-sm-4 col-md-2">
                             <img src="{{ asset('img/amenidades1.png') }}" alt="">
-                            <h2>SEGURIDAD</h2>
+                            <h2 class='alineado_centro'>SEGURIDAD</h2>
                             <div class='wrap_amenidades'>
-
                                 Contamos con accesos resguardados por un excelente equipo de seguridad, brindando de esta manera, el mejor cuidado para tu hogar y tus seres queridos.
                             </div>
                         </div>
                         <div class="col-10 col-sm-4 col-md-2">
                             <img src="{{ asset('img/amenidades2.png') }}" alt="">
-                            <h2>VIALIDADES</h2>
+                            <h2 class='alineado_centro'>VIALIDADES</h2>
                             <div class='wrap_amenidades'>
 
                                 Contamos con un sistema de vialidades pensadas para la comodidad de los tuyos, en donde tu y tu familia puedan transitar libremente sin nigun peligro.
@@ -148,7 +148,7 @@
                         </div>
                         <div class="col-10 col-sm-4 col-md-2">
                             <img src="{{ asset('img/amenidades3.png') }}" alt="">
-                            <h2>ÁREAS VERDES</h2>
+                            <h2 class='alineado_centro'>ÁREAS VERDES</h2>
                             <div class='wrap_amenidades'>
                                 <p>
                                     
@@ -159,7 +159,7 @@
                         </div>
                         <div class="col-10 col-sm-4 col-md-2">
                             <img src="{{ asset('img/amenidades4.png') }}" alt="">
-                            <h2>ÁREAS RECREATIVAS</h2>
+                            <h2 class='alineado_centro'>ÁREAS RECREATIVAS</h2>
                             <div class='wrap_amenidades'>
                                 <p>
                                     Pensado para los pequeños de la familia, contamos con espacios para la recreación y diversión familiar. 
@@ -182,8 +182,7 @@
                 </div>
             </div>
             <div class="col-11 col-md-10">
-                <div class="pestana">
-                    <img src="" alt="">
+                <div class="pestana alineado_centro">
                     <p>CONTACTO</p>
                 </div>
                     <div class="row">
