@@ -1,2 +1,422 @@
-@font-face{font-family:"fine";src:url("../font/Fine.ttf") format("truetype");font-style:normal;font-weight:"regular"}@font-face{font-family:"khmer";src:url("../font/KhmerUI.ttf") format("truetype");font-style:normal;font-weight:"regular"}@font-face{font-family:"khmerB";src:url("../font/KhmerUIb.ttf") format("truetype");font-style:normal;font-weight:"regular"}*{font-family:khme;font-size:14px}.centro_450{max-width:450px;width:100%;margin:0 auto}.mapa{width:100%;height:100vh}.vertical-height{height:100%}.centro_880{max-width:880px;margin:0 auto}.navegador_porta{background-color:#333;border-bottom:#b9a56a}.navegador_porta a{color:#fff;font-size:18px;font-family:fine}.linea_dorada{background:linear-gradient(to right, #ecdaa8 0%, rgba(243,243,242,0.43) 37%, rgba(243,243,242,0.43) 63%, rgba(243,242,240,0.43) 64%, #ecdaa8 100%);width:100%;height:2px}.pestana{width:330px;margin:0 auto;background-image:url("../img/medallon.png");background-position:top center;background-size:contain;height:54px;background-repeat:no-repeat}.pestana p{font-family:fine;color:#fff}.fondo_amenidades{-webkit-clip-path:polygon(0 0, 80% 0%, 80% 100%, 0 76%);clip-path:polygon(0 0, 80% 0%, 80% 100%, 0 76%);background-color:#969696}.mobil_vertical{height:70vh}.row{margin-left:0px;margin-right:0px}.margen_izq_auto{margin-left:auto}.fondo_marmol{background-image:url("../img/marmol.jpg");background-position:center}.fondo_inicio{background-image:url("../img/fondo_inicio.png");background-position:center}.wrap_detalle{background-color:#1a1d2d;padding:20px 50px}.wrap_detalle h2{font-family:Raleway;font-weight:600;color:#d5a871}.wrap_detalle li{color:#fff;font-family:Raleway;font-weight:600;list-style-type:none}.centro_1300{max-width:1300px;width:90%;margin:0 auto}.centro_850{max-width:850px;width:90%;margin:0 auto}.centro_300{max-width:300px;width:100%}.centro_320{max-width:320px;width:100%;margin:0 auto}.centro_130{max-width:99px;width:100%;margin:0 auto}.centro_250{max-width:250px;width:100%;margin:0 auto;position:relative}.centro_218{max-width:218px;width:100%;margin:0 auto;position:relative}.servicios_texto h3{color:#d5a871;font-size:18px;font-family:Raleway;font-weight:900;letter-spacing:4px}.parrafo{font-family:scala;font-size:14px}.fondo_azul{background-color:#1a1d2d}.fondo_blanco{background-color:#fff}.opciones_casas p{font-size:15px;font-weight:900;color:#fff;margin-bottom:0}.opciones_casas p span{font-size:12px;color:#fff;font-weight:400}.wrap_titulo_casa{font-size:21px;background-color:#fff;font-weight:900;letter-spacing:4px;color:#1a1d2d}.wrap_titulo_casa span{font-size:21px;color:#d5a871;font-weight:900}.margen_izq{margin-left:-20px}.imagen_collage{max-width:560px;width:90%;position:absolute;z-index:2}.logo_blanco{width:150px;position:absolute;right:6%;top:15%}.alineado_der{text-align:right}.alineado_centro{text-align:center}.relativo{position:relative}.wrap_puerta_1{position:absolute;right:0;top:15%}.fondo_puerta_1{background-color:#1a1d2d;width:200px;margin-right:0;margin-left:auto}.fondo_puerta_1 h2{color:#d5a871;font-size:21px;font-family:Raleway;font-weight:900;letter-spacing:6px}.parrafo_servicio{border-left:5px solid #d5a871;padding-left:8px}.wrap_porta{max-width:550px;margin:0 auto}.wrap_porta h2{display:inline-block;font-weight:900;font-size:30px;color:#333}.prisma_contacto{width:21px;vertical-align:sub;display:inline-block}.fondo_familia{background-image:url("../img/puerta_norte_familia_1.jpg");background-position:center;background-size:cover}.texto_inicio_ver{background-color:#1a1d2d;position:absolute;right:0;bottom:0}.texto_inicio_ver a{color:#d5a871;letter-spacing:6px;font-family:Raleway;font-weight:900;line-height:20px}.texto_inicio_ver a span{color:#fff;letter-spacing:0px;font-family:Raleway;font-weight:100}.direccion{color:#fff;font-family:scala;font-size:14px}.direccion p{font-family:scala;margin-bottom:0px}.alineado_derecha{text-align:right}.formualrio button{background-color:#d5a871;color:#fff;border:none}.form-control{border:1px solid #d5a871}.form-control .btn_submit_mini{background:#d5a871;color:#fff}.texto_casa{border-left:3px solid #d5a871}.texto_casa p{font-family:scala;color:#1a1d2d;font-size:16px;margin-bottom:0;display:inline-block}.texto_casa img{display:inline-block}.m-ts-280{margin-top:280px}.wrap_puerta_6{justify-content:flex-end;display:flex;margin-left:auto}.wrap_puerta_6 h2{padding:5px 20px;background-color:#fff;font-size:30px;font-family:Raleway;font-weight:900;letter-spacing:9px;color:#1a1d2d}.mas_puerta{width:20px}.wrap_puerta_5{display:flex;justify-content:flex-end}.btn_menu{width:100px;height:100px;position:fixed;top:0;left:0;background-color:#1a1d2d;z-index:15;transition:all .2s;text-align:center;display:inline-block}.btn_menu img{cursor:pointer;width:80%;margin:0 auto}.logo_menu{width:100px}.abierto{left:0px !important}.abierto_btn{left:200px}.menu{background-color:#1a1d2d;position:fixed;width:200px;background-color:#1a1d2d;height:100vh;left:-305px;z-index:10;top:0px;transition:all .2s}.menu .links_menu{padding-top:20px;padding-bottom:20px}.menu .links_menu a{color:#d5a871;font-family:Raleway;font-weight:600;letter-spacing:2px;font-size:14px}.wrap_azul{background-color:#1a1d2d}.wrap_azul h1{font-size:21px;letter-spacing:6px;color:#d5a871;font-family:Raleway;font-weight:900}.wrap_azul h1 span{color:#fff;font-family:Raleway;font-weight:100}.m-ts-50{margin-top:50px}.m-ts-30{margin-top:30px}@media (min-width: 641px){.mobil_vertical{height:auto}.vertical-height{height:100vh}.fondo_puerta_2 h2{font-size:50px}.wrap_amenidades h2{font-size:40px}.wrap_puerta_6 h2{font-size:50px}.m-ts-50{margin-top:0px}.m-ts-30{margin-top:0px}.m-ts-280{margin-top:0px}.opciones_casas p{font-size:18px}}
+@font-face {
+  font-family: "fine";
+  src: url("../font/Fine.ttf") format("truetype");
+  font-style: normal;
+  font-weight: "regular"; }
+@font-face {
+  font-family: "khmer";
+  src: url("../font/KhmerUI.ttf") format("truetype");
+  font-style: normal;
+  font-weight: "regular"; }
+@font-face {
+  font-family: "khmerB";
+  src: url("../font/KhmerUIb.ttf") format("truetype");
+  font-style: normal;
+  font-weight: "regular"; }
+* {
+  font-family: khmer;
+  font-size: 14px; }
+
+.centro_450 {
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto; }
+
+.mapa {
+  width: 100%;
+  height: 100vh; }
+
+.vertical-height {
+  height: 100%; }
+
+.centro_880 {
+  max-width: 880px;
+  margin: 0 auto; }
+
+.navegador_porta {
+  background-color: #333333;
+  border-bottom: #b9a56a; }
+  .navegador_porta a {
+    color: white;
+    font-size: 18px;
+    font-family: fine; }
+
+.linea_dorada {
+  background: linear-gradient(to right, #ecdaa8 0%, rgba(243, 243, 242, 0.43) 37%, rgba(243, 243, 242, 0.43) 63%, rgba(243, 242, 240, 0.43) 64%, #ecdaa8 100%);
+  width: 100%;
+  height: 2px; }
+
+.pestana {
+  width: 330px;
+  margin: 0 auto;
+  background-image: url("../img/medallon.png");
+  background-position: top center;
+  background-size: contain;
+  height: 54px;
+  background-repeat: no-repeat; }
+  .pestana p {
+    font-family: fine;
+    font-size: 18px;
+    padding-top: 5px;
+    color: white; }
+
+.wrap_amenidades {
+  margin-top: -250px;
+  color: white;
+  padding: 5px; }
+  .wrap_amenidades h2 {
+    font-size: 18px;
+    color: white; }
+  .wrap_amenidades p {
+    font-size: 14px; }
+
+.fondo_amenidades {
+  -webkit-clip-path: polygon(0 0, 80% 0%, 80% 100%, 0 76%);
+  clip-path: polygon(0 0, 80% 0%, 80% 100%, 0 76%);
+  background-color: #969696; }
+
+.mobil_vertical {
+  height: 70vh; }
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.margen_izq_auto {
+  margin-left: auto; }
+
+.fondo_marmol {
+  background-image: url("../img/marmol.jpg");
+  background-position: center; }
+
+.fondo_inicio {
+  background-image: url("../img/fondo_inicio.png");
+  background-position: center; }
+
+.wrap_detalle {
+  background-color: #1a1d2d;
+  padding: 20px 50px; }
+  .wrap_detalle h2 {
+    font-family: Raleway;
+    font-weight: 600;
+    color: #d5a871; }
+  .wrap_detalle li {
+    color: white;
+    font-family: Raleway;
+    font-weight: 600;
+    list-style-type: none; }
+
+.centro_1300 {
+  max-width: 1300px;
+  width: 90%;
+  margin: 0 auto; }
+
+.centro_850 {
+  max-width: 850px;
+  width: 90%;
+  margin: 0 auto; }
+
+.centro_300 {
+  max-width: 300px;
+  width: 100%; }
+
+.centro_320 {
+  max-width: 320px;
+  width: 100%;
+  margin: 0 auto; }
+
+.centro_130 {
+  max-width: 99px;
+  width: 100%;
+  margin: 0 auto; }
+
+.centro_250 {
+  max-width: 250px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative; }
+
+.centro_218 {
+  max-width: 218px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative; }
+
+.servicios_texto h3 {
+  color: #d5a871;
+  font-size: 18px;
+  font-family: Raleway;
+  font-weight: 900;
+  letter-spacing: 4px; }
+
+.parrafo {
+  font-family: scala;
+  font-size: 14px; }
+
+.fondo_azul {
+  background-color: #1a1d2d; }
+
+.fondo_blanco {
+  background-color: white; }
+
+.opciones_casas p {
+  font-size: 15px;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 0; }
+  .opciones_casas p span {
+    font-size: 12px;
+    color: white;
+    font-weight: 400; }
+
+.wrap_titulo_casa {
+  font-size: 21px;
+  background-color: white;
+  font-weight: 900;
+  letter-spacing: 4px;
+  color: #1a1d2d; }
+  .wrap_titulo_casa span {
+    font-size: 21px;
+    color: #d5a871;
+    font-weight: 900; }
+
+.margen_izq {
+  margin-left: -20px; }
+
+.imagen_collage {
+  max-width: 560px;
+  width: 90%;
+  position: absolute;
+  z-index: 2; }
+
+.logo_blanco {
+  width: 150px;
+  position: absolute;
+  right: 6%;
+  top: 15%; }
+
+.alineado_der {
+  text-align: right; }
+
+.alineado_centro {
+  text-align: center; }
+
+.relativo {
+  position: relative; }
+
+.wrap_puerta_1 {
+  position: absolute;
+  right: 0;
+  top: 15%; }
+
+.fondo_puerta_1 {
+  background-color: #1a1d2d;
+  width: 200px;
+  margin-right: 0;
+  margin-left: auto; }
+  .fondo_puerta_1 h2 {
+    color: #d5a871;
+    font-size: 21px;
+    font-family: Raleway;
+    font-weight: 900;
+    letter-spacing: 6px; }
+
+.parrafo_servicio {
+  border-left: 5px solid #d5a871;
+  padding-left: 8px; }
+
+.wrap_porta {
+  max-width: 550px;
+  margin: 0 auto; }
+  .wrap_porta h2 {
+    display: inline-block;
+    font-weight: 900;
+    font-size: 30px;
+    color: #333333; }
+
+.prisma_contacto {
+  width: 21px;
+  vertical-align: sub;
+  display: inline-block; }
+
+.fondo_familia {
+  background-image: url("../img/puerta_norte_familia_1.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.texto_inicio_ver {
+  background-color: #1a1d2d;
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+  .texto_inicio_ver a {
+    color: #d5a871;
+    letter-spacing: 6px;
+    font-family: Raleway;
+    font-weight: 900;
+    line-height: 20px; }
+    .texto_inicio_ver a span {
+      color: white;
+      letter-spacing: 0px;
+      font-family: Raleway;
+      font-weight: 100; }
+
+.direccion {
+  color: white;
+  font-family: scala;
+  font-size: 14px; }
+  .direccion p {
+    font-family: scala;
+    margin-bottom: 0px; }
+
+.alineado_derecha {
+  text-align: right; }
+
+.formualrio button {
+  background-color: #d5a871;
+  color: white;
+  border: none; }
+
+.form-control {
+  border: 1px solid #d2d3d5;
+  background-color: #d2d3d5;
+  margin-bottom: 10px; }
+  .form-control .btn_submit_mini {
+    background: #d5a871;
+    color: white; }
+
+.texto_casa {
+  border-left: 3px solid #d5a871; }
+  .texto_casa p {
+    font-family: scala;
+    color: #1a1d2d;
+    font-size: 16px;
+    margin-bottom: 0;
+    display: inline-block; }
+  .texto_casa img {
+    display: inline-block; }
+
+.m-ts-280 {
+  margin-top: 280px; }
+
+.wrap_puerta_6 {
+  justify-content: flex-end;
+  display: flex;
+  margin-left: auto; }
+  .wrap_puerta_6 h2 {
+    padding: 5px 20px;
+    background-color: white;
+    font-size: 30px;
+    font-family: Raleway;
+    font-weight: 900;
+    letter-spacing: 9px;
+    color: #1a1d2d; }
+
+.mas_puerta {
+  width: 20px; }
+
+.wrap_puerta_5 {
+  display: flex;
+  justify-content: flex-end; }
+
+.btn_submit_porta {
+  background: #d2d3d5;
+  border: 0px;
+  padding: 6px 30px;
+  color: #333333; }
+
+.kokoro {
+  width: 250px;
+  display: inline-block;
+  padding: 10px; }
+
+.btn_menu {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #1a1d2d;
+  z-index: 15;
+  transition: all 0.2s;
+  text-align: center;
+  display: inline-block; }
+  .btn_menu img {
+    cursor: pointer;
+    width: 80%;
+    margin: 0 auto; }
+
+.logo_menu {
+  width: 100px; }
+
+.abierto {
+  left: 0px !important; }
+
+.abierto_btn {
+  left: 200px; }
+
+.menu {
+  background-color: #1a1d2d;
+  position: fixed;
+  width: 200px;
+  background-color: #1a1d2d;
+  height: 100vh;
+  left: -305px;
+  z-index: 10;
+  top: 0px;
+  transition: all 0.2s; }
+  .menu .links_menu {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .menu .links_menu a {
+      color: #d5a871;
+      font-family: Raleway;
+      font-weight: 600;
+      letter-spacing: 2px;
+      font-size: 14px; }
+
+.wrap_azul {
+  background-color: #1a1d2d; }
+  .wrap_azul h1 {
+    font-size: 21px;
+    letter-spacing: 6px;
+    color: #d5a871;
+    font-family: Raleway;
+    font-weight: 900; }
+    .wrap_azul h1 span {
+      color: white;
+      font-family: Raleway;
+      font-weight: 100; }
+
+.m-ts-50 {
+  margin-top: 50px; }
+
+.m-ts-30 {
+  margin-top: 30px; }
+
+@media (min-width: 641px) {
+  .mobil_vertical {
+    height: auto; }
+
+  .vertical-height {
+    height: 100vh; }
+
+  .fondo_puerta_2 h2 {
+    font-size: 50px; }
+
+  .wrap_puerta_6 h2 {
+    font-size: 50px; }
+
+  .m-ts-50 {
+    margin-top: 0px; }
+
+  .m-ts-30 {
+    margin-top: 0px; }
+
+  .m-ts-280 {
+    margin-top: 0px; }
+
+  .opciones_casas p {
+    font-size: 18px; } }
+
 /*# sourceMappingURL=general.css.map */
