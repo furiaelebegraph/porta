@@ -185,18 +185,38 @@
                 <div class="centro_1300">
                     <div class="row justify-content-center align-items-center">
                         <div class="col-12 m-t-10" id='#genova'>
-                            <a href=""> 
+                            <a href=" {{ asset('img/genova1.png') }} " data-fancybox="genova"> 
                                 <img class='w-100' src=" {{ asset('img/genova.jpg') }}  " alt="">
+                            </a>
+
+                            <a href="{{ asset('img/genova2.png') }}" data-fancybox="genova" > 
+                                <img class='no-display' src=" {{ asset('img/genova.jpg') }}  " alt="">
+                            </a>
+
+                            <a href="{{ asset('img/genova3.png') }}" data-fancybox="genova" > 
+                                <img class='no-display' src=" {{ asset('img/genova.jpg') }}  " alt="">
                             </a>
                         </div>
                         <div class="col-12 m-t-10" id='#monza'>
-                            <a href="">
+                            <a href=" {{ asset('img/monza1.png') }} " data-fancybox="monza">
                                 <img class='w-100' src=" {{ asset('img/monza.jpg') }} " alt="">
+                            </a>
+                            <a href=" {{ asset('img/monza2.png') }} " data-fancybox="monza">
+                                <img class='no-display' src=" {{ asset('img/monza.jpg') }} " alt="">
+                            </a>
+                            <a href=" {{ asset('img/monza3.png') }} " data-fancybox="monza">
+                                <img class='no-display' src=" {{ asset('img/monza.jpg') }} " alt="">
                             </a>
                         </div>
                         <div class="col-12 m-t-10" id='#verona'>
-                            <a href="">
+                            <a href=" {{ asset('img/verona1.png') }}" data-fancybox="verona">
                                 <img class='w-100' src=" {{ asset('img/verona.jpg') }}" alt="">
+                            </a>
+                            <a href=" {{ asset('img/verona2.png') }}" data-fancybox="verona">
+                                <img class='no-display' src=" {{ asset('img/verona.jpg') }}" alt="">
+                            </a>
+                            <a href=" {{ asset('img/verona3.png') }}" data-fancybox="verona">
+                                <img class='no-display' src=" {{ asset('img/verona.jpg') }}" alt="">
                             </a>
                         </div> 
                     </div>
@@ -213,11 +233,12 @@
             </div>
             <div class="col-11 col-sm-12 m-t-80" id='ubicacion'>
                 <div class="row justify-content-center align-items-start">
-                    <div class="kokoro">
+                    <div class="kokoro alienado_centro ">
                         <img class='w-100' src="{{ asset('img/amenidades1.png') }}" alt="">
-                        <div class='wrap_amenidades'>
-                            <h2 class='alineado_centro'>SEGURIDAD</h2>
-                            <p>
+                        <div class='wrap_amenidades alineado_centro'>
+                            <img class='icono_ameni' src="{{ asset('img/camara.svg') }}" alt="">
+                            <h2 class='alineado_centro p-b-10'>SEGURIDAD</h2>
+                            <p class='alineado_izq'>
                                 Contamos con accesos resguardados por un excelente equipo de seguridad, brindando de esta manera, el mejor cuidado para tu hogar y tus seres queridos.
                                 
                             </p>
@@ -225,9 +246,10 @@
                     </div>
                     <div class="kokoro">
                         <img class='w-100' src="{{ asset('img/amenidades2.png') }}" alt="">
-                        <div class='wrap_amenidades'>
-                            <h2 class='alineado_centro'>VIALIDADES</h2>
-                            <p>
+                        <div class='wrap_amenidades alineado_centro'>
+                            <img class='icono_ameni alineado_centro' src="{{ asset('img/senal.svg') }}" alt="">
+                            <h2 class='alineado_centro p-b-10'>VIALIDADES</h2>
+                            <p class='alineado_izq'>
                                 Contamos con un sistema de vialidades pensadas para la comodidad de los tuyos, en donde tu y tu familia puedan transitar libremente sin nigun peligro.
                                 
                             </p>
@@ -235,9 +257,10 @@
                     </div>
                     <div class="kokoro">
                         <img class='w-100' src="{{ asset('img/amenidades3.png') }}" alt="">
-                        <div class='wrap_amenidades'>
-                            <h2 class='alineado_centro'>ÁREAS VERDES</h2>
-                            <p>
+                        <div class='wrap_amenidades alineado_centro'>
+                            <img class='icono_ameni' src="{{ asset('img/arbol.svg') }}" alt="">
+                            <h2 class='alineado_centro p-b-10'>ÁREAS VERDES</h2>
+                            <p class='alineado_izq'>
                             Somos un residencial sumamente responsable con el cuidado del medio ambiente, por lo que contamos con grandes secciones de áreas verdes para recreación de todos nuestros habitantes.
                             ¡Vive momentos únicos!
 
@@ -246,9 +269,10 @@
                     </div>
                     <div class="kokoro">
                         <img class='w-100' src="{{ asset('img/amenidades4.png') }}" alt="">
-                        <div class='wrap_amenidades'>
-                            <h2 class='alineado_centro'>ÁREAS RECREATIVAS</h2>
-                            <p>
+                        <div class='wrap_amenidades alineado_centro'>
+                            <img class='icono_ameni' src="{{ asset('img/jueguito.svg') }}" alt="">
+                            <h2 class='alineado_centro p-b-10'>ÁREAS RECREATIVAS</h2>
+                            <p class='alineado_izq'>
                                 Pensado para los pequeños de la familia, contamos con espacios para la recreación y diversión familiar. 
                                 ¡Atesora momentos inolvidables!
                             </p>
@@ -256,9 +280,10 @@
                     </div>
                     <div class="kokoro">
                         <img class='w-100' src="{{ asset('img/amenidades5.png') }}" alt="">
-                        <div class='wrap_amenidades'>
-                            <h2>PRIVACIDAD TOTAL</h2>
-                            <p>
+                        <div class='wrap_amenidades alineado_centro'>
+                            <img class='icono_ameni' src="{{ asset('img/candado.svg') }}" alt="">
+                            <h2 class='alineado_centro p-b-10'>PRIVACIDAD TOTAL</h2>
+                            <p class='alineado_izq'>
                                 Disfruta de una mayor tranquilidad y momentos de reflexión y calma dentro de nuestro residencial, relajate y déjate llevar con la mayor privacidad.
 
                             </p>
@@ -275,31 +300,42 @@
                 </div>
                 <div class="centro_880 m-t-80 m-b-80">
                     <div class="row">
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-5">
                             CONTACTA A UN ASESOR INMOBILIARIO <br>
                             Fraccionamiento Porta Romani <br>
                             Av. Porta Romani 100 Col... <br>
                             Telefóno <a href="tel:+1 477 000 0000"> +1 (477) 000 0000</a>
                         </div>
 
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-7">
                             <form action="enviarCorreo">
                                 <input type="text" placeholder="Nombre Completo" class="form-control">
                                 <input type="text" placeholder="E-mail" class="form-control">
-                                <textarea type="text" placeholder="Mensaje" class="form-control"></textarea>
+                                <textarea rows="10" type="text" placeholder="Mensaje" class="form-control"></textarea>
                                 <input type="submit" class='btn_submit_porta' value='ENVIAR'>
                             </form>
                         </div>
                     </div>
                 </div>
-                    
-                <div id="map">
-                    
-                </div>
             </div>
-            <div class="col-12">
-                <img class="w-100" src="{{ asset('img/portada_1.jpg') }}" alt="">
+
+        </div>
+            <div class="row">
+                <div class="col-12">
+
+                    
+                    <div id="map">
+                    
+                    </div>
+                    
+                </div> 
             </div>
+            <div class="row">
+            <div class="col-12 alineado_centro">
+                <img class="logoPortaFoo" src="{{ asset('img/logoporta.png') }}" alt="">
+            </div>
+
+
         </div>
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -309,5 +345,41 @@
         <script src="{{ asset('js/general.js') }}" ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        <script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', potato);
+        
+            function potato() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 11,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(21.107915, -101.591152), // New York
+
+                    // How you would like to style the map. 
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [{"featureType":"all","elementType":"geometry.fill","stylers":[{"weight":"2.00"}]},{"featureType":"all","elementType":"geometry.stroke","stylers":[{"color":"#9c9c9c"}]},{"featureType":"all","elementType":"labels.text","stylers":[{"visibility":"on"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"landscape","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"landscape.man_made","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"color":"#eeeeee"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#7b7b7b"}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#46bcec"},{"visibility":"on"}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#c8d7d4"}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"color":"#070707"}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"}]}]
+                };
+
+                // Get the HTML DOM element that will contain your map 
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
+
+                // Create the Google Map using our element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                // Let's also add a marker while we're at it
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(21.107915, -101.591152),
+                    map: map,
+                    title: 'Snazzy!'
+                });
+            }
+        </script>
+>>>>>>> e99dc66d5078ea81ab02a2ac3c1d61f63ab9f13e
     </body>
 </html>
