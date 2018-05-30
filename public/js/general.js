@@ -1,3 +1,19 @@
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("quienes");
+var inicio = document.getElementById("inicio");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    inicio.classList.add("sticky");
+    inicio.classList.add("si-display");
+  } else {
+    inicio.classList.remove("sticky");
+    inicio.classList.remove("si-display");
+  }
+}
+
 $( document ).ready(function() {
   $('.btn_menu').on('click', function(){
     $('.menu').toggleClass('abierto');

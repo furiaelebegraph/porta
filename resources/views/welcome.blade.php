@@ -10,6 +10,7 @@
         <!-- Fonts -->
         <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/helpers.min.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="{{ asset('css/general.css') }}">
 
@@ -48,7 +49,7 @@
                 </div>
                 <div class="menu">
                     <div class="alineado_centro m-t-20">
-                        <img class="logo_menu" src="{{ asset('img/logo_porta.svg') }}" alt="">
+                        <img class="logo_menu" src="{{ asset('img/logo_porta_d.svg') }}" alt="">
                     </div>
                     <div class="links_menu">
                         <a href="#inicio"> INICIO </a>
@@ -63,19 +64,19 @@
                     </div>
                     <div class="links_menu">
                         <img class="prisma2" src="img/prisma.svg" alt="">
-                        <a href="#genova">
+                        <a href="#portagenova">
                             GENOVA
                         </a>
                     </div>
                     <div class="links_menu">
                         <img class="prisma2" src="img/prisma.svg" alt="">
-                        <a href="#monza">
+                        <a href="#portamonza">
                             MONZA
                         </a>
                     </div>
 
                     <div class="links_menu">
-                        <a href="#verona">
+                        <a href="#portaverona">
                             VERONA
                         </a>
                     </div>
@@ -96,9 +97,35 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 navegador_porta p-t-20 escritorio" id='inicio'>
+            <div class="col-12 navegador_porta p-t-20 escritorio">
                 <div class="centro_1300">
                     <div class="row justify-content-center align-items-center alineado_centro">
+                        <div class="col-4 col-sm-2 p-t-10 p-b-10">
+                            <a href="#quienes">QUIENES SOMOS?</a>
+                        </div>
+                        <div class="col-4 col-sm-2 p-t-10 p-b-10">
+                            <a href="#modelos">MODELOS</a>
+                        </div>
+                        <div class="col-4 col-sm-2 p-t-10 p-b-10">
+                            <a href="#amenidades">AMENIDADES</a>
+                        </div>
+                        <div class="col-4 col-sm-2 p-t-10 p-b-10">
+                            <a href="#map">UBICACION</a>
+                        </div>
+                        <div class="col-4 col-sm-2 p-t-10 p-b-10">
+                            <a href="#contacto">CONTACTO</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="col-12 navegador_porta p-t-20 no-display" id='inicio'>
+                <div class="centro_1300">
+                    <div class="row justify-content-center align-items-center alineado_centro">
+                        <div class="col-4 col-sm-2 m-b-10">
+                            <img class="logo_menu" src="{{ asset('img/logo_porta_d.svg') }}" alt="">
+                        </div>
                         <div class="col-4 col-sm-2 p-t-10 p-b-10">
                             <a href="#quienes">QUIENES SOMOS?</a>
                         </div>
@@ -184,38 +211,47 @@
             <div class="col-12"id='modelos'>
                 <div class="centro_1300">
                     <div class="row justify-content-center align-items-center">
-                        <div class="col-12 m-t-10" id='#genova'>
-                            <a href=" {{ asset('img/genova1.png') }} " data-fancybox="genova"> 
+                        <div class="col-12 m-t-10" id='portagenova'>
+
+                            <a href="{{ asset('img/genova3.png') }}" data-fancybox="genova" > 
                                 <img class='w-100' src=" {{ asset('img/genova.jpg') }}  " alt="">
+                            </a>
+                            <a href=" {{ asset('img/genova1.png') }} " data-fancybox="genova"> 
+                                <img class='no-display' src=" {{ asset('img/genova.jpg') }}  " alt="">
                             </a>
 
                             <a href="{{ asset('img/genova2.png') }}" data-fancybox="genova" > 
                                 <img class='no-display' src=" {{ asset('img/genova.jpg') }}  " alt="">
                             </a>
-
-                            <a href="{{ asset('img/genova3.png') }}" data-fancybox="genova" > 
+                            <a href="{{ asset('img/genova4.jpg') }}" data-fancybox="genova" > 
                                 <img class='no-display' src=" {{ asset('img/genova.jpg') }}  " alt="">
                             </a>
                         </div>
-                        <div class="col-12 m-t-10" id='#monza'>
-                            <a href=" {{ asset('img/monza1.png') }} " data-fancybox="monza">
+                        <div class="col-12 m-t-10" id='portamonza'>
+                            <a href=" {{ asset('img/monza.png') }} " data-fancybox="monza">
                                 <img class='w-100' src=" {{ asset('img/monza.jpg') }} " alt="">
+                            </a>
+                            <a href=" {{ asset('img/monza1.png') }} " data-fancybox="monza">
+                                <img class='no-display'src=" {{ asset('img/monza.jpg') }} " alt="">
                             </a>
                             <a href=" {{ asset('img/monza2.png') }} " data-fancybox="monza">
                                 <img class='no-display' src=" {{ asset('img/monza.jpg') }} " alt="">
                             </a>
-                            <a href=" {{ asset('img/monza3.png') }} " data-fancybox="monza">
+                            <a href=" {{ asset('img/monza4.jpg') }} " data-fancybox="monza">
                                 <img class='no-display' src=" {{ asset('img/monza.jpg') }} " alt="">
                             </a>
                         </div>
-                        <div class="col-12 m-t-10" id='#verona'>
+                        <div class="col-12 m-t-10" id='portaverona'>
+                            <a href=" {{ asset('img/verona3.png') }}" data-fancybox="verona">
+                                <img class='w-100'src=" {{ asset('img/verona.jpg') }}" alt="">
+                            </a>
                             <a href=" {{ asset('img/verona1.png') }}" data-fancybox="verona">
-                                <img class='w-100' src=" {{ asset('img/verona.jpg') }}" alt="">
+                                <img class='no-display'  src=" {{ asset('img/verona.jpg') }}" alt="">
                             </a>
                             <a href=" {{ asset('img/verona2.png') }}" data-fancybox="verona">
                                 <img class='no-display' src=" {{ asset('img/verona.jpg') }}" alt="">
                             </a>
-                            <a href=" {{ asset('img/verona3.png') }}" data-fancybox="verona">
+                            <a href=" {{ asset('img/verona4.jpg') }}" data-fancybox="verona">
                                 <img class='no-display' src=" {{ asset('img/verona.jpg') }}" alt="">
                             </a>
                         </div> 
@@ -233,7 +269,7 @@
             </div>
             <div class="col-11 col-sm-12 m-t-80" id='ubicacion'>
                 <div class="row justify-content-center align-items-start">
-                    <div class="kokoro alienado_centro ">
+                    <div class="kokoro m-t-30 alienado_centro ">
                         <img class='w-100' src="{{ asset('img/amenidades1.png') }}" alt="">
                         <div class='wrap_amenidades alineado_centro'>
                             <img class='icono_ameni' src="{{ asset('img/camara.svg') }}" alt="">
@@ -244,7 +280,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="kokoro">
+                    <div class="kokoro m-t-30 alienado_centro">
                         <img class='w-100' src="{{ asset('img/amenidades2.png') }}" alt="">
                         <div class='wrap_amenidades alineado_centro'>
                             <img class='icono_ameni alineado_centro' src="{{ asset('img/senal.svg') }}" alt="">
@@ -255,7 +291,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="kokoro">
+                    <div class="kokoro m-t-30 alienado_centro">
                         <img class='w-100' src="{{ asset('img/amenidades3.png') }}" alt="">
                         <div class='wrap_amenidades alineado_centro'>
                             <img class='icono_ameni' src="{{ asset('img/arbol.svg') }}" alt="">
@@ -267,7 +303,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="kokoro">
+                    <div class="kokoro m-t-30 alienado_centro">
                         <img class='w-100' src="{{ asset('img/amenidades4.png') }}" alt="">
                         <div class='wrap_amenidades alineado_centro'>
                             <img class='icono_ameni' src="{{ asset('img/jueguito.svg') }}" alt="">
@@ -278,7 +314,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="kokoro">
+                    <div class="kokoro m-t-30 alienado_centro">
                         <img class='w-100' src="{{ asset('img/amenidades5.png') }}" alt="">
                         <div class='wrap_amenidades alineado_centro'>
                             <img class='icono_ameni' src="{{ asset('img/candado.svg') }}" alt="">
@@ -308,7 +344,7 @@
                         </div>
 
                         <div class="col-12 col-md-7">
-                            <form action="enviarCorreo">
+                            <form action="enviarCorreo" method="POST">
                                 <input type="text" placeholder="Nombre Completo" class="form-control">
                                 <input type="text" placeholder="E-mail" class="form-control">
                                 <textarea rows="10" type="text" placeholder="Mensaje" class="form-control"></textarea>
@@ -341,6 +377,7 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
 
         <script src="{{ asset('js/general.js') }}" ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -380,6 +417,5 @@
                 });
             }
         </script>
->>>>>>> e99dc66d5078ea81ab02a2ac3c1d61f63ab9f13e
     </body>
 </html>
