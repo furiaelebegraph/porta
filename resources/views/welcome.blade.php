@@ -10,6 +10,7 @@
         <!-- Fonts -->
         <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/helpers.min.css') }}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="{{ asset('css/general.css') }}">
 
     </head>
@@ -17,11 +18,85 @@
         <div class="row justify-content-center align-items-center fondo_marmol">
             <div class="col-12">
                 <div class="portada">
-                    <img class='w-100' src="{{ asset('img/portada_1.jpg') }}" alt="">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item">
+      <img class="d-block w-100" data-src="holder.js/800x400?auto=yes&amp;bg=777&amp;fg=555&amp;text=First slide" alt="Porta Romani Residencial" src="{{ asset('img/portada_1.jpg') }}" data-holder-rendered="true">
+    </div>
+    <div class="carousel-item active">
+      <img class="d-block w-100" data-src="holder.js/800x400?auto=yes&amp;bg=666&amp;fg=444&amp;text=Second slide" alt="Second slide [800x400]" src="{{ asset('img/portada_1.jpg') }}" data-holder-rendered="true">
+    </div>
+    <div class="carousel-item ">
+      <img class="d-block w-100" data-src="holder.js/800x400?auto=yes&amp;bg=555&amp;fg=333&amp;text=Third slide" alt="Third slide [800x400]" src="{{ asset('img/portada_1.jpg') }}" data-holder-rendered="true">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
                 </div>
 
             </div>
-            <div class="col-12 navegador_porta p-t-20">
+            <div class="navegador_mobiles mobil">
+                <div class="btn_menu">
+                    <img src="{{ asset('img/hamburguesa.svg') }}" alt="">
+                </div>
+                <div class="menu">
+                    <div class="alineado_centro m-t-20">
+                        <img class="logo_menu" src="{{ asset('img/logo_porta.svg') }}" alt="">
+                    </div>
+                    <div class="links_menu">
+                        <a href="#inicio"> INICIO </a>
+                    </div>
+                    <div class="links_menu"> 
+                        <a href="#quienes"> ¿QUIÉNES SOMOS? </a>
+                    </div>
+                    <div class="links_menu">
+                        <a href="#modelos">
+                            MODELOS
+                        </a>
+                    </div>
+                    <div class="links_menu">
+                        <img class="prisma2" src="img/prisma.svg" alt="">
+                        <a href="#genova">
+                            GENOVA
+                        </a>
+                    </div>
+                    <div class="links_menu">
+                        <img class="prisma2" src="img/prisma.svg" alt="">
+                        <a href="#monza">
+                            MONZA
+                        </a>
+                    </div>
+
+                    <div class="links_menu">
+                        <a href="#verona">
+                            VERONA
+                        </a>
+                    </div>
+                    <div class="links_menu">
+                        <a href="#amenidades">
+                            AMENIDADES
+                        </a>
+                    </div>
+                    <div class="links_menu">
+                        <a href="#map">
+                            UBICACION
+                        </a>
+                    </div>
+                    <div class="links_menu">
+                        <a href="#contacto">
+                            CONTACTO
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 navegador_porta p-t-20 escritorio" id='inicio'>
                 <div class="centro_1300">
                     <div class="row justify-content-center align-items-center alineado_centro">
                         <div class="col-4 col-sm-2 p-t-10 p-b-10">
@@ -34,7 +109,7 @@
                             <a href="#amenidades">AMENIDADES</a>
                         </div>
                         <div class="col-4 col-sm-2 p-t-10 p-b-10">
-                            <a href="#ubicacion">UBICACION</a>
+                            <a href="#map">UBICACION</a>
                         </div>
                         <div class="col-4 col-sm-2 p-t-10 p-b-10">
                             <a href="#contacto">CONTACTO</a>
@@ -43,7 +118,7 @@
                     
                 </div>
             </div>
-            <div class="col-12">
+            <div class="col-12" id='quienes'>
                 <div class="pestana alineado_centro">
                     <p>QUIENES SOMOS?</p>
                 </div>
@@ -106,20 +181,20 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12">
+            <div class="col-12"id='modelos'>
                 <div class="centro_1300">
                     <div class="row justify-content-center align-items-center">
-                        <div class="col-12 m-t-10">
+                        <div class="col-12 m-t-10" id='#genova'>
                             <a href=""> 
                                 <img class='w-100' src=" {{ asset('img/genova.jpg') }}  " alt="">
                             </a>
                         </div>
-                        <div class="col-12 m-t-10">
+                        <div class="col-12 m-t-10" id='#monza'>
                             <a href="">
                                 <img class='w-100' src=" {{ asset('img/monza.jpg') }} " alt="">
                             </a>
                         </div>
-                        <div class="col-12 m-t-10">
+                        <div class="col-12 m-t-10" id='#verona'>
                             <a href="">
                                 <img class='w-100' src=" {{ asset('img/verona.jpg') }}" alt="">
                             </a>
@@ -127,7 +202,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12">
+            <div class="col-12" id='amenidades'>
                 <div class="linea_dorada">
 
                 </div>
@@ -136,7 +211,7 @@
                     <p>AMENIDADES</p>
                 </div>
             </div>
-            <div class="col-11 col-sm-12 m-t-80">
+            <div class="col-11 col-sm-12 m-t-80" id='ubicacion'>
                 <div class="row justify-content-center align-items-start">
                     <div class="kokoro">
                         <img class='w-100' src="{{ asset('img/amenidades1.png') }}" alt="">
@@ -191,7 +266,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-11 col-md-10 m-t-80">
+            <div class="col-11 col-md-10 m-t-80" id='contacto'>
                 <div class="linea_dorada">
 
                 </div>
@@ -226,6 +301,13 @@
                 <img class="w-100" src="{{ asset('img/portada_1.jpg') }}" alt="">
             </div>
         </div>
-        <script scr='{{ asset('js/general.js') }}' ></script>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+        <script src="{{ asset('js/general.js') }}" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 </html>

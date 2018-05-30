@@ -333,19 +333,18 @@ $gris: #333333
   padding: 10px
 
 .btn_menu
-  width: 100px
-  height: 100px
+  width: 50px
+  height: 50px
   position: fixed
   top: 0
   left: 0
-  background-color: $azul
   z-index: 15
   transition: all 0.2s
   text-align: center
   display: inline-block
   img
     cursor: pointer
-    width: 80%
+    width: 90%
     margin: 0 auto
 
 .logo_menu
@@ -358,10 +357,9 @@ $gris: #333333
   left: 200px
 
 .menu
-  background-color: $azul
+  background-color: #333
   position: fixed
   width: 200px
-  background-color: #1a1d2d
   height: 100vh
   left: -305px
   z-index: 10
@@ -370,6 +368,7 @@ $gris: #333333
   .links_menu
     padding-top: 20px
     padding-bottom: 20px
+    padding-left: 20px
     a
       color: $dorado
       font-family: Raleway
@@ -393,8 +392,16 @@ $gris: #333333
   margin-top: 50px
 .m-ts-30
   margin-top: 30px
+.escritorio
+  display: none
+.mobil
+  display: block
 
 @media (min-width:641px)
+  .escritorio
+    display: block
+  .mobil
+    display: none
   .mobil_vertical
     height: auto
   .vertical-height
